@@ -8,3 +8,10 @@ variable "appId" {
 variable "password" {
   description = "Azure Kubernetes Service Cluster password"
 }
+variable "aks_name" {
+  description = "Azure Kubernetes Service Cluster name "
+}
+
+variable "rg_name" {
+  description = "Azure Kubernetes Service Cluster name "
+}
