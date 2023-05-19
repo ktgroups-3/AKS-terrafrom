@@ -2,7 +2,7 @@
 
 resource "azurerm_kubernetes_cluster" "default" {
   name                = var.aks_name
-  location            = "Central US"
+  location            = "West US"
   resource_group_name = var.rg_name #"svcloudtech"
   dns_prefix          = var.aks_name
 
